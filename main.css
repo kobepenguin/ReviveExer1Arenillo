@@ -1,0 +1,214 @@
+
+.home-container{
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+  
+}
+
+.home-row{
+  margin: 0px;
+  padding: 0px;
+  
+  
+}
+
+.home-col3{
+  margin: 0px;
+  padding: 0px;
+  
+  
+  
+}
+
+
+
+.home-col5{
+  margin: 0px;
+  padding: 0px;
+ 
+}
+
+.home-col4{
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+
+@media (min-width: 375px) and (max-width: 767px){
+
+  .nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 8%;
+    display: flex;
+    
+  }
+
+  .home-col3 {
+    height: 8%;
+  } 
+  
+  .fa-fw{
+    position: relative;
+    font-size:25px;
+    padding-top:1px ;
+    border-radius: 50px;
+    color: #a7b1b9;
+  }
+  .fa-fw:hover{
+    border-radius: 50px;
+    box-shadow: 0 0 0 6px #e8f5fe;
+    background-color: #e8f5fe;
+    height: 30px;
+    width: 30px;
+    transition: 0.1s;
+    color: #00acee;
+    text-decoration: none;
+  }
+
+  a:visited{
+    text-decoration: none;
+    color: #e8f5fe;
+  }
+
+  .otherbtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    font-size: 0px;
+    
+  }
+
+  .home-col5{
+    height: 92%;
+    
+    
+  }
+
+  .top_portion{
+    position: -webkit-sticky;
+    position: sticky;  
+    top: 0; /* required */
+    background-color: #FFFFFF;
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    font-weight: 800;
+    font-stretch: 50%;
+    font-size: 19px;
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 55px;
+    border-bottom: .5px solid #e6ecf0;
+
+  }
+  .homeboxbtn{
+    float:right;
+  }
+
+  .dp{
+    padding-top: -30px;
+    max-width: 30px;
+    max-height: 30px;
+  }
+
+  .center_portion{
+    max-height: 92%;
+    border-bottom: .5px solid #e6ecf0;
+    overflow: scroll;
+  }
+
+  .tweet{
+   
+    border-bottom: .5px solid #e6ecf0;
+    padding-top: 6px;
+    
+  }
+
+  section{
+    display: grid;
+    grid: auto/ 40px;
+    grid-gap: 0 2em;
+    padding-right: 17px;
+    
+  }
+
+  section p {
+    grid-column: 2 / 3;
+    margin-bottom:5px ;
+  }
+
+  .tweetdp_sec{
+    padding-left: 15px;
+    grid-column: 1/2;
+    align-self: start;
+  }
+  .fa-chevron-down{
+    padding-top: 8px;
+    padding-right: 5px;
+    float: right;
+  }
+
+  #pic{
+    margin-top: 5px;
+    margin-bottom: -5px;
+    border: .5px solid #a7b1b9;
+    border-radius: 15px;
+  }
+
+  #tweetdp{
+    width: 49px
+  }
+  .like{
+    width: 100%;
+    height: 2%; 
+    display: flex;
+    padding-top: 10px;
+  }
+  .tweetbtn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: right;
+    flex-grow: 1;
+    font-size: 5px;
+    
+  }
+
+
+  
+  .name{
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    font-weight: 650;
+    font-stretch: 50%;
+    font-size: 17px;
+  }
+
+  .write{
+    position: fixed;
+    width:60px;
+    height:60px;
+    bottom:10%;
+    right: 5%;
+    float: inline-end;
+    
+    background-color: #00acee;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    
+  }
+  
+  .new-tweet{
+    font-size: 25px;
+    margin-right: 2spx;
+    margin-top:19px;
+  }
+  
+  
+}
